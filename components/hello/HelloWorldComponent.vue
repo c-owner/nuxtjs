@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     HelloWorld 컴포넌트
     <div>
       <hello-default-layout></hello-default-layout>
@@ -9,9 +9,32 @@
 
 <script>
 import HelloDefaultLayout from "~/layouts/HelloDefaultLayout";
+
 export default {
   name: "HelloWorldComponent",
-  components: {HelloDefaultLayout}
+  components: {HelloDefaultLayout},
+  mixins: [],
+  inject: [],
+  provide() {
+    return {}
+  },
+  props: {},
+  data() {
+    return {}
+  },
+  beforeRouterEnter() {
+  },
+  created() {
+  },
+  mounted() {
+  },
+  beforeDestroy() {
+  },
+  destroyed() {
+  },
+  computed: {},
+  methods: {},
+  watch: {},
 }
 </script>
 
