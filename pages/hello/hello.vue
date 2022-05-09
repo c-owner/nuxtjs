@@ -1,9 +1,6 @@
 <template>
   <div>
-    <h1> Hello Page. </h1>
-    <div>
       <HelloWorldComponent />
-    </div>
   </div>
 
 </template>
