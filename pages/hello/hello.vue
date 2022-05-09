@@ -1,15 +1,13 @@
 <template>
   <div>
-      <HelloWorldComponent />
+    <HelloWorld/>
   </div>
 
 </template>
 
 <script>
-import HelloWorldComponent from "~/components/hello/HelloWorldComponent";
 export default {
   name: "HelloPage",
-  components: {HelloWorldComponent},
   mixins: [],
   inject: [],
   provide() {

@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <div class="hello">Hello Default Layout</div>
-  </div>
-
+  <Nuxt />
 </template>
 
 <script>

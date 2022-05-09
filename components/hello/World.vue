@@ -1,15 +1,14 @@
 <template>
   <div class="main">
-      <hello-default-layout></hello-default-layout>
+    월드입니다.
+<!--      <hello-default-layout></hello-default-layout>-->
   </div>
 </template>
 
 <script>
-import HelloDefaultLayout from "~/layouts/HelloDefaultLayout";
 
 export default {
-  name: "HelloWorldComponent",
-  components: {HelloDefaultLayout},
+  name: "World",
   mixins: [],
   inject: [],
   provide() {

@@ -1,11 +1,14 @@
 <template>
-  <router-link to="/hello/hello">
+  <div>
     hello world page link
-  </router-link>
+    <NuxtLink to="/hello/hello">asd
+    </NuxtLink>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  layout: 'HelloDefaultLayout',
 }
 </script>
