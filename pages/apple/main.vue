@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'ApplePage',
+  name: 'MainPage',
   /*
 Layout 임포트하는 방법 : 이벤트 사이클에 layout: '파일명",
 Layout안에서는 <Nuxt />라는 태그를 작성해 화면에 Page 또는 Component를 렌더링(표시)하겠다는 태그를 사용한다.
