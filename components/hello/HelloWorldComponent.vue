@@ -1,9 +1,6 @@
 <template>
   <div class="main">
-    HelloWorld 컴포넌트
-    <div>
       <hello-default-layout></hello-default-layout>
-    </div>
   </div>
 </template>
 
