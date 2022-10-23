@@ -1,7 +1,9 @@
 <template>
-    <div>
+    <div id="app">
         <h1> {{ $route }}</h1>
-        <Nuxt/>
+        <div>
+            <Nuxt />
+        </div>
     </div>
 </template>
 

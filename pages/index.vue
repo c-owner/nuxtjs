@@ -6,8 +6,8 @@
         ex) apple폴더안에 main.vue  localhost:8080/apple/apple
         -->
 
-        <NuxtLink to="/apple/main">
-            Move to "ApplePage"
+        <NuxtLink to="/about">
+            Move to "AboutPage"
         </NuxtLink>
     </div>
 </template>
@@ -15,5 +15,10 @@
 <script>
 export default {
     name: 'IndexPage',
+    data() {
+        return {
+            msg: 'Welcome to Your Nuxt.js App'
+        }
+    },
 }
 </script>
