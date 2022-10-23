@@ -1,12 +1,13 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+    <div>
+        <h1> {{ $route }}</h1>
+        <Nuxt/>
+    </div>
 </template>
 
 <script>
 export default {
-  name: "default"
+    name: "default",
 }
 </script>
 
